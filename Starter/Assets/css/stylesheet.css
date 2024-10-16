@@ -156,7 +156,6 @@ article .image-part img {
 }
 article .content-part {
   flex: 1;
-  padding-left: 50px;
 }
 article .post-title {
   margin-top: 0;
