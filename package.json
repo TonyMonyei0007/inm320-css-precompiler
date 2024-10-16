@@ -1,0 +1,19 @@
+{
+  "name": "inm320-css-precompiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "goservergo": "lite-server --baseDir=\"starter\"",
+    "anthonyisawesome": "sass --watch src/scss:starter/Assets/css",
+    "start": "concurrently \"npm run goservergo\" \"npm run anthonyisawesome\""
+  },
+  "author": "Anthony Monyei",
+  "license": "ISC",
+  "private": false,
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "lite-server": "^2.6.1",
+    "sass": "^1.79.5"
+  }
+}
